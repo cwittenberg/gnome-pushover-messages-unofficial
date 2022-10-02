@@ -14,14 +14,14 @@ Settings screen and how notifications look like in the GNOME Message tray:
 # Installation
 After completing one of the installation methods below, restart GNOME Shell (Xorg: Alt+F2, r, Enter - Wayland: log out or reboot) and enable the extension through the gnome-extensions app.
 
+## Using GNOME Extension Manager
+Open up the Extension Manager app in GNOME and simply search for 'Pushover'
+![image](https://user-images.githubusercontent.com/4825211/193472271-303e8cf9-3abe-4d31-a1f2-720c7386eb1b.png)
+
 ## From official GNOME Extensions site
 Visit the official GNOME page to quickly Toggle enablement of the extension here:
 
 [<img src="https://raw.githubusercontent.com/cwittenberg/thisipcan.cyou/main/img/get-it-on-ego.svg?sanitize=true" alt="Get it on GNOME Extensions" height="100" align="middle">](https://extensions.gnome.org/extension/5377/pushover-message-notifications/)
-
-## Using GNOME Extension Manager
-Open up the Extension Manager app in GNOME and simply search for 'Pushover'
-![image](https://user-images.githubusercontent.com/4825211/193472271-303e8cf9-3abe-4d31-a1f2-720c7386eb1b.png)
 
 ## From source
 Go to your extension directory and clone this repo
