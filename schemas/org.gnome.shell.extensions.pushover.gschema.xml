@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>  
+
+  <schema id="org.gnome.shell.extensions.pushover"
+    path="/org/gnome/shell/extensions/pushover/">
+
+    <key type="b" name="connected">
+      <default>false</default>
+      <summary>Previous connected state</summary>
+      <description>Previous connected state</description>
+    </key>
+
+    <key type="b" name="darkmode">
+      <default>true</default>
+      <summary>Dark mode</summary>
+      <description>Dark mode</description>
+    </key>
+
+    <key type="b" name="debug">
+      <default>false</default>
+      <summary>Debug mode</summary>
+      <description>Debug mode</description>
+    </key>
+
+    <key type="s" name="email">
+      <default>""</default>
+      <summary>E-mail</summary>
+      <description>Pushover E-mail</description>
+    </key>
+
+    <key type="s" name="password">
+      <default>""</default>
+      <summary>Password</summary>
+      <description>Pushover Password</description>
+    </key>
+
+  <key type="s" name="devicename">
+      <default>"GNOME"</default>
+      <summary>Pushover Device Name</summary>
+      <description>Device Name</description>
+    </key>
+
+    <key type="s" name="deviceid">
+      <default>""</default>
+      <summary>Device ID</summary>
+      <description>Pushover Device ID</description>
+    </key>
+    
+
+  </schema>
+
+</schemalist>

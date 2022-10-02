@@ -1,0 +1,13 @@
+{  
+  "description": "Displays Pushover Notifications within GNOME and within your tray. Privacy respecting unofficial client.",
+  "gettext-domain": "gnome-pushover-messages-unofficial",
+  "name": "Pushover Message Notifications",
+  "shell-version": [
+    "40",
+    "41",
+    "42"
+  ],
+  "url": "https://github.com/cwittenberg/gnome-pushover-messages-unofficial",
+  "uuid": "gnome-pushover-messages-unofficial@iwont.cyou",
+  "version": 6
+}
