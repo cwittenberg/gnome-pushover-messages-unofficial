@@ -211,10 +211,13 @@ const Indicator = GObject.registerClass(
         _init() {
             var that = this;
             super._init(0.0, _(Me.metadata['name']));
-
+            
+            let file = Gio.File.new_for_path(getLogo(true));            
+        
             let logoIconClass = (darkmode) ? "gnome-pushover-messages-extension-icon-dark" : "gnome-pushover-messages-extension-icon-light";
             let logoIcon = new St.Icon({
-                style_class: logoIconClass
+                style_class: logoIconClass,
+                gicon: new Gio.FileIcon({file})
             });
             this.add_child(logoIcon);
 
@@ -232,7 +235,7 @@ const Indicator = GObject.registerClass(
         }
 
         _onButtonClicked(obj, e) {
-            lg('Extension clicked');            
+            lg('Extension clicked');             
         }
     }
 );
