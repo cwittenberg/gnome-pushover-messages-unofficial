@@ -5,7 +5,8 @@
   "shell-version": [
     "40",
     "41",
-    "42"
+    "42",
+    "43"
   ],
   "url": "https://github.com/cwittenberg/gnome-pushover-messages-unofficial",
   "uuid": "gnome-pushover-messages-unofficial@iwont.cyou",
