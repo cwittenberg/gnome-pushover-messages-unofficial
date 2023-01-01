@@ -131,7 +131,7 @@ function notify(title, msg, iconName = null) {
         file
     });
 
-    let source = new MessageTray.Source(title);
+    let source = new MessageTray.Source(title, iconName);
 
     //ensure notification is added to GNOME message tray
     Main.messageTray.add(source);
