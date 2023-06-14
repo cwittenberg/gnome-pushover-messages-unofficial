@@ -21,6 +21,7 @@
  *
  */
 
+imports.gi.versions.Soup = "2.4";
 const {
     GObject,
     GLib,

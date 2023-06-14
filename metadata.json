@@ -6,9 +6,10 @@
     "40",
     "41",
     "42",
-    "43"
+    "43",
+    "44"
   ],
   "url": "https://github.com/cwittenberg/gnome-pushover-messages-unofficial",
   "uuid": "gnome-pushover-messages-unofficial@iwont.cyou",
-  "version": 6
+  "version": 9
 }
